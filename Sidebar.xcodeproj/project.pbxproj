@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		7CCBF66027FC4B96009571EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF65F27FC4B96009571EC /* AppDelegate.swift */; };
 		7CCBF66227FC4B96009571EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF66127FC4B96009571EC /* SceneDelegate.swift */; };
-		7CCBF66427FC4B96009571EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF66327FC4B96009571EC /* ViewController.swift */; };
 		7CCBF66727FC4B96009571EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBF66527FC4B96009571EC /* Main.storyboard */; };
 		7CCBF66927FC4B98009571EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBF66827FC4B98009571EC /* Assets.xcassets */; };
 		7CCBF66C27FC4B98009571EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBF66A27FC4B98009571EC /* LaunchScreen.storyboard */; };
 		7CCBF67727FC4B99009571EC /* SidebarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF67627FC4B99009571EC /* SidebarTests.swift */; };
 		7CCBF68127FC4B99009571EC /* SidebarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF68027FC4B99009571EC /* SidebarUITests.swift */; };
 		7CCBF68327FC4B99009571EC /* SidebarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF68227FC4B99009571EC /* SidebarUITestsLaunchTests.swift */; };
+		7CCBF69027FC4DCB009571EC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF68F27FC4DCB009571EC /* MenuViewController.swift */; };
+		7CCBF69227FC4E86009571EC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF69127FC4E86009571EC /* FirstViewController.swift */; };
+		7CCBF69427FC4E95009571EC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF69327FC4E95009571EC /* SecondViewController.swift */; };
+		7CCBF69627FC5D05009571EC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF69527FC5D05009571EC /* BaseViewController.swift */; };
+		7CCBF69827FD6D2B009571EC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF69727FD6D2B009571EC /* ThirdViewController.swift */; };
+		7CCBF69A27FD7CAB009571EC /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCBF69927FD7CAB009571EC /* Enumerations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		7CCBF65C27FC4B96009571EC /* Sidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCBF65F27FC4B96009571EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCBF66127FC4B96009571EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CCBF66327FC4B96009571EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CCBF66627FC4B96009571EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CCBF66827FC4B98009571EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CCBF66B27FC4B98009571EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		7CCBF67C27FC4B99009571EC /* SidebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCBF68027FC4B99009571EC /* SidebarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarUITests.swift; sourceTree = "<group>"; };
 		7CCBF68227FC4B99009571EC /* SidebarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CCBF68F27FC4DCB009571EC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7CCBF69127FC4E86009571EC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7CCBF69327FC4E95009571EC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7CCBF69527FC5D05009571EC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7CCBF69727FD6D2B009571EC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7CCBF69927FD7CAB009571EC /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				7CCBF65F27FC4B96009571EC /* AppDelegate.swift */,
 				7CCBF66127FC4B96009571EC /* SceneDelegate.swift */,
-				7CCBF66327FC4B96009571EC /* ViewController.swift */,
+				7CCBF68F27FC4DCB009571EC /* MenuViewController.swift */,
 				7CCBF66527FC4B96009571EC /* Main.storyboard */,
 				7CCBF66827FC4B98009571EC /* Assets.xcassets */,
 				7CCBF66A27FC4B98009571EC /* LaunchScreen.storyboard */,
 				7CCBF66D27FC4B98009571EC /* Info.plist */,
+				7CCBF69127FC4E86009571EC /* FirstViewController.swift */,
+				7CCBF69327FC4E95009571EC /* SecondViewController.swift */,
+				7CCBF69527FC5D05009571EC /* BaseViewController.swift */,
+				7CCBF69727FD6D2B009571EC /* ThirdViewController.swift */,
+				7CCBF69927FD7CAB009571EC /* Enumerations.swift */,
 			);
 			path = Sidebar;
 			sourceTree = "<group>";
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCBF66427FC4B96009571EC /* ViewController.swift in Sources */,
 				7CCBF66027FC4B96009571EC /* AppDelegate.swift in Sources */,
+				7CCBF69027FC4DCB009571EC /* MenuViewController.swift in Sources */,
 				7CCBF66227FC4B96009571EC /* SceneDelegate.swift in Sources */,
+				7CCBF69827FD6D2B009571EC /* ThirdViewController.swift in Sources */,
+				7CCBF69427FC4E95009571EC /* SecondViewController.swift in Sources */,
+				7CCBF69227FC4E86009571EC /* FirstViewController.swift in Sources */,
+				7CCBF69627FC5D05009571EC /* BaseViewController.swift in Sources */,
+				7CCBF69A27FD7CAB009571EC /* Enumerations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
